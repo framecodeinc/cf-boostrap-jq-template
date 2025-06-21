@@ -1,0 +1,19 @@
+.a-header, .a-header:link, .a-header:visited {
+  color: white;
+}
+
+.main-header {
+  background-color: #002259 !important;
+}
+
+.about{
+  margin-right: 60px !important;
+}
+/* =========================== */
+@media (min-width: 641px) {
+  
+  .about{
+    margin-right: 0px !important;
+  }
+
+}

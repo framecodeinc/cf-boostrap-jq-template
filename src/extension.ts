@@ -18,7 +18,7 @@ export function activate(context: vscode.ExtensionContext) {
         }
 
         const destination = targetFolder[0].fsPath;
-        const source = path.join(context.extensionPath, 'templates', 'cf-boootstrap-jquery');
+        const source = path.join(context.extensionPath, 'sourcefiles', 'cf-boootstrap-jquery');
 
         try {
             await fs.copy(source, destination);

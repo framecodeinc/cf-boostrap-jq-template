@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
     let disposable = vscode.commands.registerCommand('cf-boostrap-jq-template.createProject', async () => {
         const targetFolder = await vscode.window.showOpenDialog({
             canSelectFolders: true,
-            openLabel: 'Choose new project folder',
+            openLabel: 'Choose project folder',
         });
 
         if (!targetFolder) {
@@ -22,7 +22,7 @@ export function activate(context: vscode.ExtensionContext) {
 
         try {
             await fs.copy(source, destination);
-            vscode.window.showInformationMessage('Successfully created ColdFusion project with Bootstrap and JQuery.');
+            vscode.window.showInformationMessage('Successfully created Adobe ColdFusion project template with Bootstrap and jQuery inspired by Blazor Web App.');
         } catch (err) {
             let errorMessage = 'Error creating project.';
             if (err instanceof Error) {

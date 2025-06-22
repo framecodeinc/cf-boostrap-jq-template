@@ -1,7 +1,7 @@
 {
   "name": "cf-boostrap-jq-template",
-  "displayName": "Adobe ColdFusion Project Template with Bootstrap and jQuery inspired by Blazor",
-  "description": "Create new project template with Bootstrap and jQuery inspired by Blazor.",
+  "displayName": "Adobe ColdFusion Project Template with Bootstrap and jQuery inspired by Blazor Web App",
+  "description": "Create new project template with Bootstrap and jQuery inspired by Blazor Web App.",
   "version": "1.0.1",
   "publisher": "framecode",
   "icon": "cf-b-jq.png",
@@ -17,7 +17,7 @@
     "commands": [
       {
         "command": "cf-boostrap-jq-template.createProject",
-        "title": "ColdFusion: Create new project template with Bootstrap and jQuery inspired by Blazor"
+        "title": "Adobe ColdFusion: Create new project template with Bootstrap and jQuery inspired by Blazor Web App"
       }
     ]
   },

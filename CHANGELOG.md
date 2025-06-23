@@ -6,6 +6,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ---
 
+## [1.2.2] - 2025-06-22
+### Added
+- Minor changes
+- Add badges to extension.
+
+---
+
 ## [1.1.2] - 2025-06-22
 ### Added
 - Add CHANGELOG file.
@@ -25,5 +32,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Initial release of the Adobe ColdFusion Project Template with Bootstrap and jQuery inspired by Blazor Web App.
 - Generates a Adobe ColdFusion project structure template with:
   - Bootstrap 5.3.6 and jQuery 3.7.1 preconfigured.
-  - Example component: `weatherforecast.cfc`.
   - Sample pages inspired by a Blazor Web App.

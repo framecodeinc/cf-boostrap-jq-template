@@ -10,7 +10,7 @@
 
 This is a Visual Studio Code template extension for creating a ColdFusion project with Bootstrap and jQuery integration, inspired by Blazor Web App.
 
-<img src="images/screenshot1.png" width="60%" />
+<img src="images/screenshot1.png" width="80%" />
 
 ## Features
 

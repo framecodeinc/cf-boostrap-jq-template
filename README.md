@@ -14,13 +14,13 @@ This is a Visual Studio Code templates extension for creating a ColdFusion proje
 
 <img src="images/screenshot1.png" width="80%" />
 
-# Features
+### Features
 
 - Generates a new Adobe ColdFusion project structure
 - Includes Bootstrap 5.3.6 and jQuery 3.7.1 by default
 - Includes sample pages inspired by a Blazor Web App.
 
-# Usage
+### Usage
 
 1. Open the Command Palette (`Ctrl+Shift+P`)
 2. Type `Adobe ColdFusion: Create new project with simple Bootstrap/jQuery template`
@@ -34,14 +34,14 @@ This is a Visual Studio Code templates extension for creating a ColdFusion proje
 
 <img src="images/screenshot4.png" width="80%" />
 
-# Features
+### Features
 
 - Generates a new Adobe ColdFusion project structure
 - Includes Bootstrap 5.3.6, Bootstrap Icons 1.11.3 and jQuery 3.7.1 by default.
 - Includes login, registration, password recovery pages, and simple session handling.
 - Includes sample pages inspired by a Blazor Web App.
 
-# Usage
+### Usage
 
 1. Open the Command Palette (`Ctrl+Shift+P`)
 2. Type `Adobe ColdFusion: Create new project with login Bootstrap/jQuery template`

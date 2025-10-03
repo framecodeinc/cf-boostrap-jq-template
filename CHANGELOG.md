@@ -6,13 +6,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ---
 
-## [1.3.4] - 2025-06-22
+## [1.3.4] - 2025-10-02
 ### Added
-- Minor changes
+- Corrected information
 
 ---
 
-## [1.3.3] - 2025-06-22
+## [1.3.3] - 2025-10-02
 ### Added
 - Minor changes
 - Added more information.

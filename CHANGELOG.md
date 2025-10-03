@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ---
 
+## [1.3.5] - 2025-10-02
+### Added
+- Updated information
+
+---
+
 ## [1.3.4] - 2025-10-02
 ### Added
 - Corrected information

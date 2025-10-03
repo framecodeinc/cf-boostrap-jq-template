@@ -6,6 +6,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ---
 
+## [1.3.3] - 2025-06-22
+### Added
+- Minor changes
+- Added more information.
+
+---
+
 ## [1.3.2] - 2025-10-02
 ### Added
 - Added Adobe ColdFusion Project Template login with Bootstrap/jQuery inspired by Blazor Web App.

@@ -8,7 +8,9 @@
 ![Last Commit](https://img.shields.io/github/last-commit/framecodeinc/cf-boostrap-jq-template)
 
 
-This is a Visual Studio Code template extension for creating a ColdFusion project with Bootstrap and jQuery integration, inspired by Blazor Web App.
+This is a Visual Studio Code templates extension for creating a ColdFusion project with Bootstrap and jQuery integration, inspired by Blazor Web App.
+
+1.- Simple template:
 
 <img src="images/screenshot1.png" width="80%" />
 
@@ -21,7 +23,28 @@ This is a Visual Studio Code template extension for creating a ColdFusion projec
 ## Usage
 
 1. Open the Command Palette (`Ctrl+Shift+P`)
-2. Type `Adobe ColdFusion: Create new project template with Bootstrap and jQuery inspired by Blazor Web App`
+2. Type `Adobe ColdFusion: Create new project with simple Bootstrap/jQuery template`
+3. Select a folder and the template will be applied
+
+2.- Login template
+
+<img src="images/screenshot2.png" width="80%" />
+
+<img src="images/screenshot3.png" width="80%" />
+
+<img src="images/screenshot4.png" width="80%" />
+
+## Features
+
+- Generates a new Adobe ColdFusion project structure
+- Includes Bootstrap 5.3.6, Bootstrap Icons 1.11.3 and jQuery 3.7.1 by default.
+- Includes login, registration, password recovery pages, and simple session handling.
+- Includes sample pages inspired by a Blazor Web App.
+
+## Usage
+
+1. Open the Command Palette (`Ctrl+Shift+P`)
+2. Type `Adobe ColdFusion: Create new project with login Bootstrap/jQuery template`
 3. Select a folder and the template will be applied
 
 ## Author

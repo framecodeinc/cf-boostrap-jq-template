@@ -17,11 +17,11 @@
     "commands": [
       {
         "command": "cf-bootstrap-jq-template.createProject",
-        "title": "Adobe ColdFusion: Create new project template with Bootstrap/jQuery inspired by Blazor Web App"
+        "title": "Adobe ColdFusion: Create new project with simple Bootstrap/jQuery template"
       }, 
       {
         "command": "cf-bootstrap-jq-template-login.createProject",
-        "title": "Adobe ColdFusion: Create new project template login with Bootstrap/jQuery inspired by Blazor Web App"
+        "title": "Adobe ColdFusion: Create new project with login Bootstrap/jQuery template"
       }
     ]
   },

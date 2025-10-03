@@ -23,7 +23,7 @@ export function activate(context: vscode.ExtensionContext) {
 
         try {
             await fs.copy(source, destination);
-            vscode.window.showInformationMessage('Successfully created Adobe ColdFusion project template with Bootstrap/jQuery.');
+            vscode.window.showInformationMessage('Successfully created Adobe ColdFusion project.');
         } catch (err) {
             let errorMessage = 'Error creating project.';
             if (err instanceof Error) {
@@ -48,7 +48,7 @@ export function activate(context: vscode.ExtensionContext) {
 
         try {
             await fs.copy(source, destination);
-            vscode.window.showInformationMessage('Successfully created Adobe ColdFusion project template login with Bootstrap/jQuery.');
+            vscode.window.showInformationMessage('Successfully created Adobe ColdFusion project.');
         } catch (err) {
             let errorMessage = 'Error creating project.';
             if (err instanceof Error) {

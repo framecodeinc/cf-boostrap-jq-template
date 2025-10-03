@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ---
 
+## [1.3.4] - 2025-06-22
+### Added
+- Minor changes
+
+---
+
 ## [1.3.3] - 2025-06-22
 ### Added
 - Minor changes

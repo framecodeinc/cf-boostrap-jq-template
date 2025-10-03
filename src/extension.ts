@@ -7,7 +7,8 @@ import * as path from 'path';
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
-    let disposable = vscode.commands.registerCommand('cf-boostrap-jq-template.createProject', async () => {
+    // Simple boostrap-jQuery template inspired by Blazor Web App.
+    let disposable = vscode.commands.registerCommand('cf-bootstrap-jq-template.createProject', async () => {
         const targetFolder = await vscode.window.showOpenDialog({
             canSelectFolders: true,
             openLabel: 'Choose project folder',
@@ -18,11 +19,11 @@ export function activate(context: vscode.ExtensionContext) {
         }
 
         const destination = targetFolder[0].fsPath;
-        const source = path.join(context.extensionPath, 'sourcefiles', 'cf-boootstrap-jquery');
+        const source = path.join(context.extensionPath, 'sourcefiles', 'cf-bootstrap-jquery');
 
         try {
             await fs.copy(source, destination);
-            vscode.window.showInformationMessage('Successfully created Adobe ColdFusion project template with Bootstrap and jQuery inspired by Blazor Web App.');
+            vscode.window.showInformationMessage('Successfully created Adobe ColdFusion project template with Bootstrap/jQuery.');
         } catch (err) {
             let errorMessage = 'Error creating project.';
             if (err instanceof Error) {
@@ -31,8 +32,33 @@ export function activate(context: vscode.ExtensionContext) {
             vscode.window.showErrorMessage(errorMessage);
         }
     });
+    // Login boostrap-jQuery template inspired by Blazor Web App.
+    let disposableLogin = vscode.commands.registerCommand('cf-bootstrap-jq-template-login.createProject', async () => {
+        const targetFolder = await vscode.window.showOpenDialog({
+            canSelectFolders: true,
+            openLabel: 'Choose project folder',
+        });
 
+        if (!targetFolder) {
+            return;
+        }
+
+        const destination = targetFolder[0].fsPath;
+        const source = path.join(context.extensionPath, 'sourcefiles', 'cf-bootstrap-jquery-login');
+
+        try {
+            await fs.copy(source, destination);
+            vscode.window.showInformationMessage('Successfully created Adobe ColdFusion project template login with Bootstrap/jQuery.');
+        } catch (err) {
+            let errorMessage = 'Error creating project.';
+            if (err instanceof Error) {
+                errorMessage += ' ' + err.message;
+            }
+            vscode.window.showErrorMessage(errorMessage);
+        }
+    });
     context.subscriptions.push(disposable);
+    context.subscriptions.push(disposableLogin);
 }
 
 // This method is called when your extension is deactivated

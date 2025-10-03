@@ -1,0 +1,5 @@
+ body, html {
+    height: 100%;
+    background-image: linear-gradient(180deg, RGB(0, 34, 88) 0%, RGB(123, 173, 255) 70%);
+    font-size: 0.9rem;
+}

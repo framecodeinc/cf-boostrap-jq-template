@@ -1,0 +1,1 @@
+<div class='alert alert-danger'>404 - Page not found</div>
